@@ -14,51 +14,11 @@ def produce_summary(filename):                  #def function to take in file fo
         count, melon, amount))              #print the totals
 
 
-print("Day 1")
-# the_file = open("um-deliveries-20140519.txt")
-# for line in the_file:
-#     line = line.rstrip()
-#     words = line.split('|')
-
-#     melon = words[0]
-#     count = words[0]
-#     amount = words[0]
-
-#     print("Delivered {} {}s for total of ${}".format(
-#         count, melon, amount))
-# the_file.close()
-
+print("Day 1")                              #call function on day 1 file
 day_1 = produce_summary("um-deliveries-20140519.txt")
 
-print("Day 2")
-# the_file = open("um-deliveries-20140520.txt")
-# for line in the_file:
-#     line = line.rstrip()
-#     words = line.split('|')
-
-#     melon = words[0]
-#     count = words[1]
-#     amount = words[2]
-
-#     print("Delivered {} {}s for total of ${}".format(
-#         count, melon, amount))
-# the_file.close()
-
+print("Day 2")                              #call function on day 2 file
 day_2 = produce_summary("um-deliveries-20140520.txt")
 
-
-print("Day 3")
-# the_file = open("um-deliveries-20140521.txt")
-# for line in the_file:
-#     line = line.rstrip()
-#     words = line.split('|')
-
-#     melon = words[0]
-#     count = words[0]
-#     amount = words[0]
-
-#     print("Delivered {} {}s for total of ${}".format(
-#         count, melon, amount))
-# the_file.close()
-
+print("Day 3")                              #call function on day 3 file
 day_3 = produce_summary("um-deliveries-20140521.txt")
